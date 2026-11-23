@@ -12,7 +12,7 @@ export const config = {
    * URL publique du site, sans slash final.
    * Provisoire : adresse *.pages.dev. À remplacer par le nom de domaine définitif (variable SITE_URL).
    */
-  SITE_URL: env('SITE_URL', 'https://outils-du-quotidien.pages.dev').replace(/\/+$/, ''),
+  SITE_URL: env('SITE_URL', 'https://outilsduquotidien.pages.dev').replace(/\/+$/, ''),
 
   /* ── Google AdSense ─────────────────────────────────────────────
    * Tant que ADSENSE_PUBLISHER_ID est vide, AUCUN code publicitaire n'est inséré,

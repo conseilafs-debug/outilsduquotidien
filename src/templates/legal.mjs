@@ -59,7 +59,7 @@ export const LEGAL_PAGES = () => [
 <li><strong>Adresse :</strong> ${val(L.address, 'adresse postale')}</li>
 <li><strong>E-mail :</strong> ${email()}</li>
 <li><strong>Directeur de la publication :</strong> ${val(L.director, 'directeur de la publication')}</li>
-${L.siret ? `<li><strong>SIRET :</strong> ${esc(L.siret)}</li>` : ''}
+${L.siret ? `<li><strong>SIREN :</strong> ${esc(L.siret)}</li>` : ''}
 </ul>
 <h2>Hébergement</h2>
 <p>Le site est hébergé par Cloudflare, Inc., 101 Townsend Street, San Francisco, CA 94107, États-Unis — <a href="https://www.cloudflare.com/" rel="noopener">www.cloudflare.com</a>.</p>

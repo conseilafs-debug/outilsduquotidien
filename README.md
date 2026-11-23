@@ -31,7 +31,7 @@ Node 20 ou plus récent.
 4. Variables d'environnement recommandées (Production) :
    - `SITE_URL` : l'URL publique exacte, sans slash final (ex. `https://xxx.pages.dev`). Elle alimente canonicals, sitemap, robots.txt et Open Graph.
    - `SITE_NAME` (optionnel) : nom affiché.
-   - `LEGAL_PUBLISHER`, `LEGAL_STATUS`, `LEGAL_ADDRESS`, `LEGAL_EMAIL`, `LEGAL_DIRECTOR`, `LEGAL_SIRET` (optionnel) : identité de l'éditeur pour les mentions légales (obligatoires avant AdSense). Tant qu'elles manquent, les pages légales affichent des repères « À compléter ».
+   - `LEGAL_PUBLISHER`, `LEGAL_STATUS`, `LEGAL_ADDRESS`, `LEGAL_EMAIL`, `LEGAL_DIRECTOR`, `LEGAL_SIREN` : identité de l'éditeur des mentions légales. Valeurs par défaut déjà renseignées (Athéna Office) dans `site.config.mjs` ; ces variables permettent de les surcharger.
 5. Déployer, puis tester la home, une page outil, `/sitemap.xml`, `/robots.txt` et une URL inexistante (404 personnalisée).
 
 ## Ajouter un nom de domaine plus tard

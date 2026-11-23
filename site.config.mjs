@@ -41,12 +41,12 @@ export const config = {
 
   /* ── Informations légales de l'éditeur (à compléter) ── */
   LEGAL: {
-    publisher: env('LEGAL_PUBLISHER'),   // nom ou raison sociale
-    status: env('LEGAL_STATUS'),         // ex. « micro-entreprise », « particulier »
-    address: env('LEGAL_ADDRESS'),
-    email: env('LEGAL_EMAIL'),
-    director: env('LEGAL_DIRECTOR'),     // directeur de la publication
-    siret: env('LEGAL_SIRET'),
+    publisher: env('LEGAL_PUBLISHER', 'Athéna Office Tiffany Lesieur EI'),   // nom ou raison sociale
+    status: env('LEGAL_STATUS', 'Entreprise individuelle, micro-entreprise'),         // ex. « micro-entreprise », « particulier »
+    address: env('LEGAL_ADDRESS', '2 résidence Pierre Jacques, rue des Chardonnerets, 62600 Groffliers, France'),
+    email: env('LEGAL_EMAIL', 'contact@athena-office.fr'),
+    director: env('LEGAL_DIRECTOR', 'Philippe Lesieur'),     // directeur de la publication
+    siret: env('LEGAL_SIREN', '105 858 328'),
   },
 };
 

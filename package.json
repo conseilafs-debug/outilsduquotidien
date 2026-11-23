@@ -1,0 +1,21 @@
+{
+  "name": "outils-du-quotidien",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site statique d'outils gratuits en français : calculateurs, convertisseurs, travaux, dates.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test \"tests/*.test.mjs\"",
+    "check": "node scripts/check.mjs",
+    "verify": "npm run build && npm run test && npm run check",
+    "preview": "node scripts/preview.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "jsdom": "^31.0.1"
+  }
+}
